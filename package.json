@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmoyDreamer/expired-localStorage.git"
+    "url": "git+https://github.com/AmoyDreamer/expired-localstorage.git"
   },
   "keywords": [
     "localStorage",
@@ -21,9 +21,9 @@
   "author": "Allen Liu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AmoyDreamer/expired-localStorage/issues"
+    "url": "https://github.com/AmoyDreamer/expired-localstorage/issues"
   },
-  "homepage": "https://github.com/AmoyDreamer/expired-localStorage#readme",
+  "homepage": "https://github.com/AmoyDreamer/expired-localstorage#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2"
