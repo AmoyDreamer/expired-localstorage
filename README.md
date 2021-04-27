@@ -1,4 +1,4 @@
-# expired-localStorage
+# expired-localstorage
 A library of cache based on localStorage that supports expired storage.
 
 ## Installing
