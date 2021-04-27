@@ -1,0 +1,31 @@
+{
+  "name": "expired-localstorage",
+  "version": "1.0.0",
+  "description": "A library of cache based on localStorage that supports expired storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch",
+    "build": "gulp compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmoyDreamer/expired-localStorage.git"
+  },
+  "keywords": [
+    "localStorage",
+    "cache",
+    "expired",
+    "storage"
+  ],
+  "author": "Allen Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmoyDreamer/expired-localStorage/issues"
+  },
+  "homepage": "https://github.com/AmoyDreamer/expired-localStorage#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}
