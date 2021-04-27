@@ -44,3 +44,6 @@ LS.remove(key)
 
 ### Clear all cached data
 LS.clear()
+
+## License
+expired-localstorage is [MIT licensed](https://github.com/AmoyDreamer/expired-localstorage/blob/master/LICENSE).
