@@ -4,16 +4,16 @@ A library of cache based on localStorage that supports expired storage.
 ## Installing
 ### Using unpkg CDN
 ```
-<script src="https://unpkg.com/expired-localStorage@1.0.0/index.js"></script>
+<script src="https://unpkg.com/expired-localstorage@1.0.0/index.js"></script>
 ```
 ### Using npm
 ```bash
-npm install expired-localStorage --save-dev
+npm install expired-localstorage --save-dev
 ```
 ## Usage
 ### CommonJS usage
 ```
-const LS = require('expired-localStorage')
+const LS = require('expired-localstorage')
 ```
 ### Code in Javascript
 ```
