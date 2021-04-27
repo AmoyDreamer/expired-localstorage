@@ -36,7 +36,7 @@ LS.get(key)
 LS.set(key, value, time)
 - {String} key -> key name.(required)
 - {Any} value -> data value.(required)
-- {Number} time -> expires time, unit is ms, such as passing 60000, that means 1 minute.(optional)
+- {Number} time -> expires time, unit is ms, such as passing 60000, that means 1 minute. No value, no expiration.(optional)
 
 ### Remove data from localStorage
 LS.remove(key)

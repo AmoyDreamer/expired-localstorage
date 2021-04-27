@@ -36,7 +36,7 @@
      * @desc: Set value by localStorage
      * @param: {String} key -> key name.(required)
      * @param: {Any} value -> data value.(required)
-     * @param: {Number} time -> expires time, unit is ms, such as passing 60000, that means 1 minute.(optional)
+     * @param: {Number} time -> expires time, unit is ms, such as passing 60000, that means 1 minute. No value, no expiration.(optional)
      */
     LS.set = function(key, value, time) {
         if (undefined === value) return
