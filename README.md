@@ -4,7 +4,7 @@ A library of cache based on localStorage that supports expired storage.
 ## Installing
 ### Using unpkg CDN
 ```
-<script src="https://unpkg.com/expired-localstorage@1.0.0/index.js"></script>
+<script src="https://unpkg.com/expired-localstorage@1.0.1/index.js"></script>
 ```
 ### Using npm
 ```bash
