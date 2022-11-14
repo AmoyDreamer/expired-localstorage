@@ -1,6 +1,6 @@
 {
   "name": "expired-localstorage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library of cache based on localStorage that supports expired storage.",
   "main": "index.js",
   "scripts": {
