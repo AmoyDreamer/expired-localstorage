@@ -23,9 +23,9 @@
      */
     LS.get = function(key) {
         var obj = store.getItem(key) ? JSON.parse(store.getItem(key)) : void 0
-        if (undefined === obj) return void 0
+        if (obj === undefined) return void 0
         //There are non-standard data structure or expired data
-        if (typeof obj !== 'object' || undefined === obj.value || undefined === obj.expires || typeof obj.expires !== 'number' || this.isExpired(obj.expires)) {
+        if (typeof obj !== 'object' || obj === null || obj.value === undefined || obj.expires === undefined || typeof obj.expires !== 'number' || this.isExpired(obj.expires)) {
             //Remove old data structure or expired data
             this.remove(key);
             return void 0
@@ -39,7 +39,7 @@
      * @param: {Number} time -> expires time, unit is ms, such as passing 60000, that means 1 minute. No value, no expiration.(optional)
      */
     LS.set = function(key, value, time) {
-        if (undefined === value) return
+        if (value === undefined) return
         var now = (new Date()).getTime();
         var expires = typeof time === 'number' && time > 0 ? now + time : -1;
         var obj = JSON.stringify({
